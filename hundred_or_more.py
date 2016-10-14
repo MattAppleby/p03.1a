@@ -13,7 +13,7 @@ Tests:
     >>> add_to_n(100)
     5050
     >>> add_to_n(500)
-    62625
+    125250
     >>> add_to_n(1234)
     761995
 
@@ -27,5 +27,11 @@ def run_tests():
 
 # Edit this code
 def add_to_n(n):
+    total = 0
+    for i in range(1, n+1):
+
+     total = total+i
+    print(total)
+
 
 
